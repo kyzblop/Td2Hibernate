@@ -61,7 +61,7 @@ public class PrincipaleServlet extends HttpServlet {
 				user1 = new UVip(login, mdp, 0.15, 2, 5, 12);
 			}
 			
-			
+			// nulos
 			UtilisateurDetails userD1 = new UtilisateurDetails(request.getParameter("adresse"),
 					request.getParameter("ville"),Integer.valueOf(request.getParameter("cp")),
 					request.getParameter("tel"),
